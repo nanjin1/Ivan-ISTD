@@ -90,7 +90,7 @@ python test.py
 # <font style="color:rgb(31, 35, 40);">Acknowledgement</font>
 <font style="color:rgb(31, 35, 40);">This project is build based on</font><font style="color:rgb(31, 35, 40);"> </font>[SCTransNet](https://github.com/xdFai/SCTransNet)<font style="color:rgb(31, 35, 40);">. Thanks to Shuai Yuan.</font>
 
-<font style="color:rgb(31, 35, 40);">The original dataset used in this study is sourced from </font>[HIT-UAV.](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset)<font style="color:rgb(31, 35, 40);"> ，with additional data collected subsequently.Thanks to Jiashun Suo.</font>
+<font style="color:rgb(31, 35, 40);">The original dataset used in this study is sourced from </font>[HIT-UAV.](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset)<font style="color:rgb(31, 35, 40);"> ，with additional data collection and manual annotation.Thanks to Jiashun Suo.</font>
 
 
 
