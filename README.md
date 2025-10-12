@@ -55,15 +55,7 @@ python pre_dataset/Noise_Sample.py
 
 ### 3.Train
 ```plain
-<<<<<<< HEAD
 python train_ns.py
-=======
-<<<<<<< HEAD
-python train_ns.py
-=======
-python train.py
->>>>>>> origin/feat/update
->>>>>>> 21a2898 (update)
 ```
 
 ### 4.Test
