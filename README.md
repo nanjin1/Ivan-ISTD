@@ -55,12 +55,12 @@ python pre_dataset/Noise_Sample.py
 
 ### 3.Train
 ```plain
-python train_ns.py
+python Infrared_detection_model/train_ns.py
 ```
 
 ### 4.Test
 ```plain
-python test.py
+python Infrared_detection_model/test.py
 ```
 
 
