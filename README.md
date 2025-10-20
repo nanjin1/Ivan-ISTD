@@ -3,7 +3,7 @@
 ![](https://cdn.nlark.com/yuque/0/2025/png/50405538/1760256985485-17b52b81-f596-4b96-956e-6f5df14a895c.png?x-oss-process=image%2Fformat%2Cwebp)
 # <font style="color:rgb(31, 35, 40);">Dependencies and Installation</font>
 ```plain
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 # Usage
