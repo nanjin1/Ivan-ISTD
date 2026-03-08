@@ -75,19 +75,24 @@ python Infrared_detection_model/test.py
 <!-- 这是一张图片，ocr 内容为： -->
 ![Visualization of different models on the dataset. Blue, yellow, and red circles indicate correctly detected targets, missed detections, and false positives, respectively. The blue boxes highlight small targets for clearer observation.](https://cdn.nlark.com/yuque/0/2025/png/50405538/1743506123471-92ed2472-74c5-4f1c-b319-fc4622ef7191.png)
 *Figure 3. Visualization of different models on the dataset. Blue, yellow, and red circles indicate correctly detected targets, missed detections, and false positives, respectively. The blue boxes highlight small targets for clearer observation.*
+
+
 #### <font style="color:rgb(31, 35, 40);">Qualitative Results</font>
 | Model | Performance |  |  |  |  |
 | :---: | :---: | --- | --- | --- | --- |
 |  | <font style="color:rgb(64, 64, 64);">PixAcc</font> | <font style="color:rgb(64, 64, 64);">mIoU</font> | <font style="color:rgb(64, 64, 64);">nIoU</font> | <font style="color:rgb(64, 64, 64);">Pd</font> | <font style="color:rgb(64, 64, 64);">F1</font> |
-| ACM-Net | <font style="color:rgb(64, 64, 64);">84.59</font> | <font style="color:rgb(64, 64, 64);">46.80</font> | <font style="color:rgb(64, 64, 64);">37.84</font> | <font style="color:rgb(64, 64, 64);">38.48</font> | <font style="color:rgb(64, 64, 64);">60.25</font> |
-| ALC-Net | <font style="color:rgb(64, 64, 64);">85.27</font> | <font style="color:rgb(64, 64, 64);">36.18</font> | <font style="color:rgb(64, 64, 64);">30.85</font> | <font style="color:rgb(64, 64, 64);">30.25</font> | <font style="color:rgb(64, 64, 64);">50.81</font> |
-| DNA-Net | <font style="color:rgb(64, 64, 64);">79.91</font> | <font style="color:rgb(64, 64, 64);">71.30</font> | <font style="color:rgb(64, 64, 64);">57.69</font> | <font style="color:rgb(64, 64, 64);">60.00</font> | <font style="color:rgb(64, 64, 64);">75.36</font> |
-| RDIAN | <font style="color:rgb(64, 64, 64);">73.95</font> | <font style="color:rgb(64, 64, 64);">62.00</font> | <font style="color:rgb(64, 64, 64);">51.20</font> | <font style="color:rgb(64, 64, 64);">59.49</font> | <font style="color:rgb(64, 64, 64);">67.45</font> |
-| ISTDU-Net | <font style="color:rgb(64, 64, 64);">78.27</font> | <font style="color:rgb(64, 64, 64);">71.25</font> | <font style="color:rgb(64, 64, 64);">58.01</font> | <font style="color:rgb(64, 64, 64);">62.15</font> | <font style="color:rgb(64, 64, 64);">74.60</font> |
-| UIU-Net | <font style="color:rgb(64, 64, 64);">78.28</font> | <font style="color:rgb(64, 64, 64);">69.50</font> | <font style="color:rgb(64, 64, 64);">50.43</font> | <font style="color:rgb(64, 64, 64);">59.11</font> | <font style="color:rgb(64, 64, 64);">68.43</font> |
-| HCF-Net | <font style="color:rgb(64, 64, 64);">47.95</font> | <font style="color:rgb(64, 64, 64);">35.45</font> | <font style="color:rgb(64, 64, 64);">37.42</font> | <font style="color:rgb(64, 64, 64);">54.31</font> | <font style="color:rgb(64, 64, 64);">40.76</font> |
-| SCTransNet | <font style="color:#000000;">78.15</font> | <font style="color:#000000;">73.93</font> | <font style="color:#000000;">60.92</font> | <font style="color:#000000;">67.21</font> | <font style="color:#000000;">83.60</font> |
-| **Ours** | <font style="color:rgb(64, 64, 64);">82.54</font> | **<font style="color:#df2a3f;">75.44</font>** | **<font style="color:#df2a3f;">62.42</font>** | **<font style="color:#df2a3f;">69.75</font>** | **<font style="color:#df2a3f;">84.98</font>** |
+| ACM-Net | <font style="color:rgb(64, 64, 64);">19.46</font> | <font style="color:rgb(64, 64, 64);">17.62</font> | <font style="color:rgb(64, 64, 64);">19.52</font> | <font style="color:rgb(64, 64, 64);">27.34</font> | <font style="color:rgb(64, 64, 64);">18.49</font> |
+| ALC-Net | <font style="color:rgb(64, 64, 64);">74.67</font> | <font style="color:rgb(64, 64, 64);">10.49</font> | <font style="color:rgb(64, 64, 64);">22.19</font> | <font style="color:rgb(64, 64, 64);">15.95</font> | <font style="color:rgb(64, 64, 64);">18.40</font> |
+| DNA-Net | <font style="color:rgb(64, 64, 64);">78.41</font> | <font style="color:rgb(64, 64, 64);">71.97</font> | <font style="color:rgb(64, 64, 64);">56.46</font> | <font style="color:rgb(64, 64, 64);">56.71</font> | <font style="color:rgb(64, 64, 64);">75.05</font> |
+| RDIAN | <font style="color:rgb(64, 64, 64);">65.01</font> | <font style="color:rgb(64, 64, 64);">58.03</font> | <font style="color:rgb(64, 64, 64);">46.14</font> | <font style="color:rgb(64, 64, 64);">50.25</font> | <font style="color:rgb(64, 64, 64);">61.32</font> |
+| ISTDU-Net | <font style="color:rgb(64, 64, 64);">74.14</font> | <font style="color:rgb(64, 64, 64);">69.03</font> | <font style="color:rgb(64, 64, 64);">53.84</font> | <font style="color:rgb(64, 64, 64);">52.91</font> | <font style="color:rgb(64, 64, 64);">71.49</font> |
+| UIU-Net | <font style="color:rgb(64, 64, 64);">58.13</font> | <font style="color:rgb(64, 64, 64);">55.96</font> | <font style="color:rgb(64, 64, 64);">41.22</font> | <font style="color:rgb(64, 64, 64);">37.47</font> | <font style="color:rgb(64, 64, 64);">57.02</font> |
+| HCF-Net | <font style="color:rgb(64, 64, 64);">69.27</font> | <font style="color:rgb(64, 64, 64);">48.66</font> | <font style="color:rgb(64, 64, 64);">50.63</font> | <font style="color:rgb(64, 64, 64);">55.33</font> | <font style="color:rgb(64, 64, 64);">57.17</font> |
+| SCTransNet | <font style="color:#000000;">78.37</font> | <font style="color:#000000;">74.51</font> | <font style="color:#000000;">58.75</font> | <font style="color:#000000;">60.51</font> | <font style="color:#000000;">84.47</font> |
+| BGM | <font style="color:rgb(64, 64, 64);">78.43</font> | <font style="color:rgb(64, 64, 64);">72.76</font> | <font style="color:rgb(64, 64, 64);">57.93</font> | <font style="color:rgb(64, 64, 64);">62.03</font> | <font style="color:rgb(64, 64, 64);">70.33</font> |
+| MSDA-Net | <font style="color:rgb(64, 64, 64);">80.24</font> | <font style="color:rgb(64, 64, 64);">75.83</font> | <font style="color:rgb(64, 64, 64);">62.29</font> | <font style="color:rgb(64, 64, 64);">66.05</font> | <font style="color:rgb(64, 64, 64);">46.83</font> |
+| **Ours** | <font style="color:rgb(64, 64, 64);">81.70</font> | **<font style="color:#df2a3f;">76.01</font>** | **<font style="color:#df2a3f;">62.97</font>** | **<font style="color:#df2a3f;">68.10</font>** | **<font style="color:#df2a3f;">85.51</font>** |
+
 
 
 # <font style="color:rgb(31, 35, 40);">Acknowledgement</font>
