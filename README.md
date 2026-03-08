@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 <!-- 这是一张图片，ocr 内容为： -->
 ![(a) The diagram illustrates the process of constructing the dataset. (b) The diagram displays the composition and distribution of the dataset, where Severely Degraded Samples are created by combining Strongly Blurred Samples with Noisy Samples. (c) The diagram provides examples of backgrounds and targets across various scenes.](https://cdn.nlark.com/yuque/0/2026/png/50405538/1772944798114-99983806-b515-4669-bbe6-6db17c30b42b.png)
-
+*Figure 1. (a) The diagram illustrates the process of constructing the dataset. (b) The diagram displays the composition and distribution of the dataset, where Severely Degraded Samples are created by combining Strongly Blurred Samples with Noisy Samples. (c) The diagram provides examples of backgrounds and targets across various scenes.*
 ### <font style="color:rgb(31, 35, 40);">1.Dataset</font>
 + **<font style="color:rgb(31, 35, 40);">Our project has the following structure</font>**
 
