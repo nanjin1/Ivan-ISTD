@@ -2,7 +2,7 @@
 # Overview
 <!-- 这是一张图片，ocr 内容为： -->
 ![The overall framework of our method. Stage I presents the complete Wavelet-guided Cross-domain Synthesis framework, consisting of (a) and (b). (a) illustrates the process of extracting high-value small targets from the source set (right image) and unsupervised background sample extraction (left image). (b) describes the synthesis of new samples using SSIM ranking and Poisson blending techniques. Stage II outlines the process of Real-domain Noise Invariance Learning. It involves unsupervised real noise sampling from target images, minimizing loss to enhance the model's robustness to cross-domain noise. (c) shows the detailed process of extracting noise from the target set.](https://cdn.nlark.com/yuque/0/2025/png/50405538/1760256985485-17b52b81-f596-4b96-956e-6f5df14a895c.png?x-oss-process=image%2Fformat%2Cwebp)
-
+*Figure 1. The overall framework of our method. Stage I presents the complete Wavelet-guided Cross-domain Synthesis framework, consisting of (a) and (b). (a) illustrates the process of extracting high-value small targets from the source set (right image) and unsupervised background sample extraction (left image). (b) describes the synthesis of new samples using SSIM ranking and Poisson blending techniques. Stage II outlines the process of Real-domain Noise Invariance Learning. It involves unsupervised real noise sampling from target images, minimizing loss to enhance the model's robustness to cross-domain noise. (c) shows the detailed process of extracting noise from the target set.*
 # <font style="color:rgb(31, 35, 40);">Dependencies and Installation</font>
 ```plain
 pip install -r requirements.txt
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 <!-- 这是一张图片，ocr 内容为： -->
 ![(a) The diagram illustrates the process of constructing the dataset. (b) The diagram displays the composition and distribution of the dataset, where Severely Degraded Samples are created by combining Strongly Blurred Samples with Noisy Samples. (c) The diagram provides examples of backgrounds and targets across various scenes.](https://cdn.nlark.com/yuque/0/2026/png/50405538/1772944798114-99983806-b515-4669-bbe6-6db17c30b42b.png)
-*Figure 1. (a) The diagram illustrates the process of constructing the dataset. (b) The diagram displays the composition and distribution of the dataset, where Severely Degraded Samples are created by combining Strongly Blurred Samples with Noisy Samples. (c) The diagram provides examples of backgrounds and targets across various scenes.*
+*Figure 2. (a) The diagram illustrates the process of constructing the dataset. (b) The diagram displays the composition and distribution of the dataset, where Severely Degraded Samples are created by combining Strongly Blurred Samples with Noisy Samples. (c) The diagram provides examples of backgrounds and targets across various scenes.*
 ### <font style="color:rgb(31, 35, 40);">1.Dataset</font>
 + **<font style="color:rgb(31, 35, 40);">Our project has the following structure</font>**
 
@@ -73,8 +73,8 @@ python Infrared_detection_model/test.py
 # <font style="color:rgb(31, 35, 40);">Results and Trained Models</font>
 ### <font style="color:rgb(31, 35, 40);">Visual</font>
 <!-- 这是一张图片，ocr 内容为： -->
-![](https://cdn.nlark.com/yuque/0/2025/png/50405538/1743506123471-92ed2472-74c5-4f1c-b319-fc4622ef7191.png)
-
+![Visualization of different models on the dataset. Blue, yellow, and red circles indicate correctly detected targets, missed detections, and false positives, respectively. The blue boxes highlight small targets for clearer observation.](https://cdn.nlark.com/yuque/0/2025/png/50405538/1743506123471-92ed2472-74c5-4f1c-b319-fc4622ef7191.png)
+*Figure 3. Visualization of different models on the dataset. Blue, yellow, and red circles indicate correctly detected targets, missed detections, and false positives, respectively. The blue boxes highlight small targets for clearer observation.*
 #### <font style="color:rgb(31, 35, 40);">Qualitative Results</font>
 | Model | Performance |  |  |  |  |
 | :---: | :---: | --- | --- | --- | --- |
