@@ -91,7 +91,7 @@ python Infrared_detection_model/test.py
 | SCTransNet | <font style="color:#000000;">78.37</font> | <font style="color:#000000;">74.51</font> | <font style="color:#000000;">58.75</font> | <font style="color:#000000;">60.51</font> | <font style="color:#000000;">84.47</font> |
 | BGM | <font style="color:rgb(64, 64, 64);">78.43</font> | <font style="color:rgb(64, 64, 64);">72.76</font> | <font style="color:rgb(64, 64, 64);">57.93</font> | <font style="color:rgb(64, 64, 64);">62.03</font> | <font style="color:rgb(64, 64, 64);">70.33</font> |
 | MSDA-Net | <font style="color:rgb(64, 64, 64);">80.24</font> | <font style="color:rgb(64, 64, 64);">75.83</font> | <font style="color:rgb(64, 64, 64);">62.29</font> | <font style="color:rgb(64, 64, 64);">66.05</font> | <font style="color:rgb(64, 64, 64);">46.83</font> |
-| **Ours** | <font style="color:rgb(64, 64, 64);">81.70</font> | **<font style="color:#df2a3f;">76.01</font>** | **<font style="color:#df2a3f;">62.97</font>** | **<font style="color:#df2a3f;">68.10</font>** | **<font style="color:#df2a3f;">85.51</font>** |
+| **Ours** | **<font style="color:#df2a3f;">81.70</font>** | **<font style="color:#df2a3f;">76.01</font>** | **<font style="color:#df2a3f;">62.97</font>** | **<font style="color:#df2a3f;">68.10</font>** | **<font style="color:#df2a3f;">85.51</font>** |
 
 
 
